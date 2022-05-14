@@ -179,6 +179,7 @@ html{
 .title-text .subtitle h2{
   font-size:14px;
   font-weight:400;
+  margin:5px 0px;
 }
 .title-text .btn-download{
   margin-top:1rem;
@@ -227,8 +228,8 @@ html{
   align-items:center;
 }
 .card-body-header .card-title h3{
-  font-size:15px;
-  font-weight:400;
+  font-size:14px;
+  font-weight:500;
   text-transform: capitalize;
   margin-top:-10px;
 }
