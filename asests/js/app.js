@@ -24,12 +24,6 @@ for(link of links){
   });
 };
 
-let header = document.querySelector(".header");
-  window.addEventListener("scroll",scrol);
-  
-function scrol(){
-  header.classList.toggle("sticky",window.scrollY > 0);
-};
   
 let images = document.querySelectorAll(".card-image img");
 let boxModal = document.querySelector(".box-modal");
