@@ -12,8 +12,9 @@
   --color-link:#373939;
   --font-app: 'Poppins', sans-serif;
 }
-section{
+section[id]{
   padding:2.5em 0;
+  scroll-margin-top:70px;
 }
 .box-modal{
   width:100%;

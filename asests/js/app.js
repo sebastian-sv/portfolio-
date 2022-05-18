@@ -55,7 +55,7 @@ sr.reveal('section', {
 });
 
 /* validación de formulario */
-
+/*
 let form = document.getElementById("form-contac");
 let name = document.getElementById("name");
 let email = document.getElementById("email");
@@ -93,7 +93,19 @@ form.addEventListener("submit",(e)=>{
   if(validar){
     errors.innerHTML = warning;
   }else{
-    errors.innerHTML = "El formulario se ha enviado...";
+   let url = "../php/send-email.php";
+   fetch(url)
+    .then(response => response.json())
+    .then(data => console.log(data));
   }
-})
+});
 
+let options = {
+  rootMargin:'-50% 0px -50% 0px',
+}
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    entry.target.getAttribute;
+  });
+});
+*/

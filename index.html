@@ -203,9 +203,12 @@
       <div class="card-form mx-container">
         <div class="form">
         <div id="errors"></div>
-          <form id="form-contac" method="POST">
+          <form id="form-contac" action="asests/php/send-email.php" method="POST">
             <div class="grup-input">
               <input type="text" id="name" name="name" class="input-form" placeholder="Escribe tu nombre">
+            </div>
+            <div class="grup-input">
+              <input type="text" id="asunto" name="asunto" class="input-form" placeholder="asunto...">
             </div>
             <div class="grup-input">
               <input type="email" id="email" name="email" class="input-form" placeholder="ingrese su correo electrónico">
